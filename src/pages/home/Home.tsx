@@ -28,7 +28,9 @@ function Home() {
                         {' '}
                         <li className="navlink">Opportunities</li>
                     </Link>
-                    <button className="btn">Join us</button>
+                    <Link to="/joinus">
+                        <button className="btn">Join us</button>
+                    </Link>
                 </ul>
             </div>
         </div>
