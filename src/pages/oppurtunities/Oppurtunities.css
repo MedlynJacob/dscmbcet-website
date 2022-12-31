@@ -1,0 +1,28 @@
+#oppurPage {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #1a1a1a;
+}
+
+#oppurPageName {
+    background: url('../../assets/images/oppurtunities_header.png') no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 363px;
+    background-size: 100%;
+}
+
+.oppurContainer {
+    background-color: #1a1a1a;
+    align-items: center;
+    margin: 30px 15% 0 15%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#oppurHeader {
+    display: flex;
+}
