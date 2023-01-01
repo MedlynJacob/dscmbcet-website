@@ -7,6 +7,7 @@ function Joinus() {
         <div>
             <Navbar />
             <img src={joinusheader} alt="img" className="image1"></img>
+            <div className="centered">Join us</div>
         </div>
     );
 }
