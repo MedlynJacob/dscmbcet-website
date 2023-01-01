@@ -7,6 +7,7 @@ function Events() {
         <div>
             <Navbar />
             <img src={eventsheader} alt="img" className="image1"></img>
+            <div className="centered">Events</div>
         </div>
     );
 }

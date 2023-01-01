@@ -1,3 +1,12 @@
 .image1 {
     width: 100vw;
 }
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 500;
+    font-size: 100px;
+}
