@@ -3,26 +3,44 @@
     flex-direction: column;
     color: white;
     background-color: #1a1a1a;
+    height: 100%;
 }
 
 #oppurPageName {
     background: url('../../assets/images/oppurtunities_header.png') no-repeat;
+    object-fit: cover;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 363px;
+    justify-content: center;
     background-size: 100%;
+}
+
+#oppurHeader {
+    font-size: 7vw;
+    padding: 8.5%;
+    font-weight: 500;
 }
 
 .oppurContainer {
     background-color: #1a1a1a;
-    align-items: center;
-    margin: 30px 15% 0 15%;
+    align-content: center;
+    margin: 30px 15% 50px 15%;
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
 }
 
-#oppurHeader {
-    display: flex;
+#oppurSearchInput {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    width: 500px;
+    background-color: #333333;
+    color: white;
+    font-size: large;
+    border: #333333;
+    outline-width: 0px;
 }

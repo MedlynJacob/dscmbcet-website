@@ -1,6 +1,6 @@
 import React from 'react';
 import './card.css';
-function card() {
+function Card() {
     return (
         <div className="cardContainer">
             <h1 className="cardTittle">This is the Header area</h1>
@@ -15,4 +15,4 @@ function card() {
     );
 }
 
-export default card;
+export default Card;
