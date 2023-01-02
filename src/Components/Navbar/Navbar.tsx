@@ -7,24 +7,19 @@ function Navbar() {
         <div className="navbar">
             <img src={gdsclogo} alt="logo" className="gdsclogo" />
             <ul className="navlinks">
-                <Link to="/" style={{ textDecoration: 'none' }}>
-                    {' '}
+                <Link to="/">
                     <li className="navlink">About us</li>
                 </Link>
-                <Link to="/events" style={{ textDecoration: 'none' }}>
-                    {' '}
+                <Link to="/events">
                     <li className="navlink">Events</li>
                 </Link>
-                <Link to="/resources" style={{ textDecoration: 'none' }}>
-                    {' '}
+                <Link to="/resources">
                     <li className="navlink">Resources</li>
                 </Link>
-                <Link to="/team" style={{ textDecoration: 'none' }}>
-                    {' '}
+                <Link to="/team">
                     <li className="navlink">Team</li>
                 </Link>
-                <Link to="/oppurtunities" style={{ textDecoration: 'none' }}>
-                    {' '}
+                <Link to="/oppurtunities">
                     <li className="navlink">Opportunities</li>
                 </Link>
                 <Link to="/joinus">
