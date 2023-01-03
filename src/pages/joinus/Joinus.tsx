@@ -13,6 +13,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 function Joinus() {
     return (
+    <div>
         <div className='main' style={{backgroundImage:`url(${bg})`}}>
         
             <Navbar />
@@ -60,6 +61,7 @@ function Joinus() {
             </div>
             
         </div>
+      </div>
     );
 }
 
