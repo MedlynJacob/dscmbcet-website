@@ -14,10 +14,11 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 function Joinus() {
     return (
         <div className='main' style={{backgroundImage:`url(${bg})`}}>
+        
             <Navbar />
             <img src={joinusheader} alt="img" className="image1"></img>
             <div className="centered">Join us</div>
-
+              
             <div className='yt'>
                 <div className='text'>
                     <h4>Find your zone, build your skills</h4>
